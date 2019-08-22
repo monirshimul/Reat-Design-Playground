@@ -1,26 +1,55 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import ToDo from './components/ToDo';
+import Test from './components/Test';
+import NavBar from './components/NavBar';
+import Table from './components/Table';
+import Alert from './components/Alert';
+import Login from './components/Login';
+import Images from './components/Images';
+import SignUp from './components/SignUp';
+import AfterLogin from './components/AfterLogin';
+import About from './components/About';
+import AllInfo from './components/AllInfo';
+import ContactInfo from './components/ContactInfo';
+import Testing from './components/Testing';
+import Forms from './components/Forms';
+import AllLogs from './components/AllLogs';
+import PropsTest from './components/PropsTest';
+
+import SuperAdminLogin from './components/SuperAdmin/loginAdmin';
+import SuperAdminPanel from './components/SuperAdmin/AdminPanel';
+import UserAdminLogin from './components/Admin/UserLogin';
+import AdminDashboard from './components/SuperAdmin/Dashboard';
+import TestComponent from './components/SuperAdmin/TestComponent';
+import AdminPanelTest from './components/SuperAdmin/AdminPanelTest';
+import Welcome from './components/Welcome';
+import NormalUserPanel from './components/Admin/Main';
+
+
+class App extends Component {
+  render() {
+    // var User = {
+    //   UserId: "monirshimul",
+    //   hobbies: ["Gaming", "Swimming"]
+    // }
+    return (
+      <div className="App" style={{ backgroundColor: "#fcfcfc", marginBottom: "30px" }} >
+        {/* <PropsTest name={"Monir"} age={32} User={User} /> */}
+
+        <NormalUserPanel />
+
+      </div>
+    )
+  }
 }
+
+
+
+
+
+
+
+
 
 export default App;
