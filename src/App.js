@@ -27,15 +27,12 @@ import Welcome from './components/Welcome';
 import NormalUserPanel from './components/Admin/Main';
 
 
+
 class App extends Component {
   render() {
-    // var User = {
-    //   UserId: "monirshimul",
-    //   hobbies: ["Gaming", "Swimming"]
-    // }
+
     return (
       <div className="App" style={{ backgroundColor: "#fcfcfc", marginBottom: "30px" }} >
-        {/* <PropsTest name={"Monir"} age={32} User={User} /> */}
 
         <NormalUserPanel />
 

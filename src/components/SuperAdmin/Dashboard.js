@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import UserReport from './UserReport';
+import Modal from './Modal';
 import DropDown from '../SuperAdmin/DropDown';
+import '../../components/css/superSidebar.css';
+
 
 export class Dashboard extends Component {
     render() {
@@ -66,7 +69,7 @@ export class Dashboard extends Component {
                 <div className="content">
 
 
-                    <UserReport />
+                    <Modal />
 
 
 

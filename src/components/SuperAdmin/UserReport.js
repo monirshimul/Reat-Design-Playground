@@ -44,7 +44,7 @@ export class UserReport extends Component {
                         <i class="fas fa-skating"></i>&nbsp;Active Users
                     </div>
                     <div className="row">
-                        <table class="table table-hover">
+                        {/* <table class="table table-hover">
                             <thead>
                                 <tr>
                                     <th scope="col">User ID</th>
@@ -85,7 +85,10 @@ export class UserReport extends Component {
 
 
                             </tbody>
-                        </table>
+                        </table> */}
+
+
+
                     </div>
 
                 </div>
